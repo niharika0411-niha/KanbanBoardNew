@@ -1,0 +1,38 @@
+.column {
+  padding: 10px; /* Adds padding inside the column */
+  width: 18%; /* Sets the column width to 18% */
+}
+
+.col-header {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space elements evenly on the left and right */
+  align-items: center; /* Vertically center elements */
+  margin-bottom: 12px; /* Adds spacing below the column header */
+}
+
+.head-start {
+  display: inline-flex; /* Creates an inline-flex container */
+  align-items: center; /* Vertically centers items in the container */
+}
+
+.head-start img {
+  margin-right: 10px; /* Adds space to the right of the image */
+  vertical-align: middle; /* Aligns the image to the middle vertically */
+}
+
+.head-end {
+  display: inline-flex; /* Creates an inline-flex container */
+  align-items: center; /* Vertically centers items in the container */
+}
+
+.head-end img {
+  margin-right: 10px; /* Adds space to the right of the image */
+  vertical-align: middle; /* Aligns the image to the middle vertically */
+}
+
+.column h2 {
+  text-align: center; /* Centers the heading text */
+  color: #333; /* Dark gray color for the heading text */
+  margin-bottom: 10px; /* Adds spacing below the heading */
+}
+

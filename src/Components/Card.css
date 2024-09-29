@@ -1,0 +1,78 @@
+.card {
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  padding: 14px; /* Inner spacing */
+  max-width: 360px; /* Maximum width of the card */
+  margin-bottom: 16px; /* Space below each card */
+}
+
+.card-header {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between header elements */
+  align-items: center; /* Vertically align elements in the center */
+  margin-bottom: 12px; /* Spacing below the header */
+}
+
+.card-id {
+  font-size: 12px; /* Small text for the ID */
+  color: #666; /* Gray color */
+}
+
+.user-avatar {
+  width: 28px; /* Avatar width */
+  height: 28px; /* Avatar height */
+  border-radius: 50%; /* Circular shape */
+  background-color: #666; /* Gray background for avatar */
+}
+
+.card-body {
+  display: inline-flex; /* Inline flexbox layout */
+  align-items: center; /* Align items in the center vertically */
+}
+
+.status-icon {
+  margin-right: 4px; /* Small margin to the right of status icon */
+}
+
+.priority-icon {
+  padding: 6px; /* Padding around the priority icon */
+  border: 1px solid #f0f0f0; /* Light border */
+  margin-right: 2px; /* Small margin to the right of priority icon */
+  border-radius: 4px; /* Slight rounding of corners */
+}
+
+.card-title {
+  font-size: 18px; /* Larger font size for the title */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 16px; /* Space below the title */
+}
+
+.card-tag {
+  display: flex; /* Flex layout for tags */
+  align-items: center; /* Vertically center the tag elements */
+  justify-content: start; /* Align items to the start (left) */
+}
+
+.tag-body-1 {
+  background-color: #fff; /* White background for tags */
+}
+
+.tag-body {
+  border: 1px solid #f0f0f0; /* Light border around the tags */
+  border-radius: 4px; /* Slightly rounded corners */
+  padding: 4px 8px; /* Padding inside the tag */
+  margin-right: 6px; /* Small margin between tags */
+}
+
+.tag-body .tag-icon {
+  width: 8px; /* Small size for the tag icon */
+  font-weight: bold; /* Bold text */
+  margin-right: 4px; /* Small space to the right of the icon */
+}
+
+.tag-text {
+  font-size: 14px; /* Medium size text for tag content */
+}
+
+  

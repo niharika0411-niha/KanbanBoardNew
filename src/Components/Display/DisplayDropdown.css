@@ -1,0 +1,78 @@
+/* Dropdown container */
+.dropdown {
+  position: relative; /* Position it relative to its parent */
+  display: inline-block;
+  align-items: flex-start;
+  width: 100vw; /* Full viewport width */
+  background-color: white; /* Set background to white */
+  margin-bottom: 20px; /* Add space below */
+}
+
+/* Wrapper for dropdown elements */
+.display-container {
+  position: absolute; /* Positioned relative to the dropdown */
+  top: 10px; /* 10px from the top */
+  left: 10px; /* 10px from the left */
+}
+
+/* Styling for the button that activates the dropdown */
+.display-button {
+  display: inline-flex; /* Elements are laid out in a horizontal row */
+  align-items: center; /* Vertically center elements inside */
+  background-color: white; /* White background */
+  color: gray; /* Gray text color */
+  padding: 10px; /* Padding around the button */
+  border: 1px solid grey; /* Light gray border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Add space between the image and text inside the button */
+.display-button img {
+  margin-right: 5px;
+}
+
+/* Add space between the text inside the button */
+.display-button span {
+  margin-right: 5px;
+}
+
+/* Dropdown content styling, initially hidden */
+.dropdown-content {
+  display: none; /* Hidden by default */
+  position: absolute; /* Positioned absolutely relative to the dropdown */
+  top: 80%; /* 80% from the top of the dropdown */
+  left: 0; /* Left-aligned */
+  background-color: #f9f9f9; /* Light gray background */
+  min-width: 160px; /* Minimum width for the dropdown */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  z-index: 1; /* Ensure it appears on top */
+  margin-top: 60px; /* Space above the dropdown */
+  margin-left: 60px; /* Space to the left */
+  min-width: 300px; /* Minimum width for the dropdown */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Individual dropdown items */
+.dropdown-content div {
+  display: flex; /* Flexbox layout for each item */
+  padding: 12px 16px; /* Add padding around items */
+  justify-content: space-between; /* Space between label and input */
+  align-items: center; /* Vertically center elements */
+  margin: 0px 12px; /* Horizontal margin between items */
+}
+
+/* Spacing for the label inside dropdown items */
+.dropdown-content div label {
+  margin-right: 10px;
+}
+
+/* Dropdown select styling */
+.dropdown-content div select {
+  padding: 5px; /* Padding inside the select element */
+}
+
+/* When dropdown is active, display its content */
+.dropdown.active .dropdown-content {
+  display: block; /* Show the content */
+}
